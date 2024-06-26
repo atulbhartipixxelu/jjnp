@@ -66,8 +66,8 @@
   outline: 0;
 }
 .slick-slider .slick-arrow {
-  color: #000;
-  border: 1px solid #000;
+  color: #fff;
+  border: 1px solid #fff;
   width: 50px;
   height: 50px;
   border-radius: 100%;
@@ -163,7 +163,8 @@ div[role="tabpanel"] {
   font-weight: normal;
   padding: 15px 50px;  /* Padding */
   text-transform: uppercase;  /* Uppercase text */
-  transition: transform 0.3s ease, background 0.3s ease;  /* Smooth transitions */
+  transition: transform 0.3s ease; 
+  background: 0.3s ease;  /* Smooth transitions */
   backdrop-filter: blur(5px);  /* Blur effect */
 }
 
@@ -201,7 +202,12 @@ div[role="tabpanel"] {
   box-shadow: 0 0 10px 0 #dbdbdb;
 }
 
-
+.absolute .flex.items-center {
+  color: #fff;
+}
+.sticky-nav .flex.items-center {
+  color: #000;
+}
 
 
 

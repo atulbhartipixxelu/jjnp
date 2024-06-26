@@ -7,7 +7,7 @@ const LINKS = [
   },
   {
     title: "THE COMPANY",
-    items: [  "Return Policy", "Terms & Conditions", "Cancellation Policy"],
+    items: [  "Return Policy", "Terms & Conditions", "Cancellation Policy", "Privacy Policy" ],
   }
 ];
 
@@ -35,7 +35,9 @@ export function Footer() {
       case "Cancellation Policy":
         navigate("/cancellation-policy");
         break;
-
+      case "Privacy Policy":
+        navigate("/privacy-policy");
+        break;
 
       default:
     }

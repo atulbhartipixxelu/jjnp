@@ -276,7 +276,7 @@ export default function ViewAllProducts() {
         id: product._id,
         productName: product.title,
         discountedPrice:
-          product.price - (product.price * product.discount) / 100,
+        product.price - (product.price * product.discount) / 100,
         description: product.desc,
         originalPrice: product.price,
         discount: product.discount,

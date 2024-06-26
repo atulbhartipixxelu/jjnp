@@ -18,13 +18,13 @@ export default function TermsnPrivacy() {
       <div className="relative bg-cover bg-center flex items-center justify-center min-h-[170px] lg:min-h-[400px]" style={{ backgroundImage: `url(./contact/contact-banner.png)` }}>
           <div className="absolute inset-0 bg-black opacity-30"></div>
           <div className="relative z-10 text-white text-center">
-            <h1 className="text-2xl lg:text-5xl font-bold">Terms & Conditions / Privacy Policy</h1>
+            <h1 className="text-2xl lg:text-5xl font-bold">Terms & Conditions </h1>
           </div>
       </div>
 
       <div className="mx-auto max-w-[1270px] py-8 px-4 lg:py-16">
         <section className="relative">
-        <h4 className="text-black mb-2 text-[20px] font-bold">Terms & Conditions / Privacy Policy</h4>
+        <h4 className="text-black mb-2 text-[20px] font-bold">Terms & Conditions</h4>
         <p className="text-gray-600 mb-4 text-[16px]">For the purpose of these Terms and Conditions, The term "we", "us", "our" used anywhere on this page shall mean JJNP'S FASHION PRIVATE LIMITED, whose registered/operational office is  Kamte Nagar Rd, Kondhwa Budruk, Pune, Maharashtra Pune MAHARASHTRA 411048 . "you", “your”, "user", “visitor” shall mean any natural or legal person who is visiting our website and/or agreed to purchase from us.</p>
           <p className="text-black  mb-2 text-[16px] font-bold">Your use of the website and/or purchase from us are governed by following Terms and Conditions:</p>
           <p className="text-gray-600 mb-4 text-[16px]">The content of the pages of this website is subject to change without notice.</p>
